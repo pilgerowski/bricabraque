@@ -29,6 +29,7 @@ def maiorPrimo(iNumero):
                 return iMaior
     return False;
 
+
 iNumero = input("Entre com o valor:")
 print(maiorPrimo(iNumero))
         
