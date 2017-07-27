@@ -1,7 +1,5 @@
 def ehDividivelPor(iNumero, iDivisor):
-    if(iNumero % iDivisor == 0):
-        return True
-    return False
+    return (iNumero % iDivisor == 0)
 
 def fizzbuzz(iNumero):
     if(type(iNumero) != int):
